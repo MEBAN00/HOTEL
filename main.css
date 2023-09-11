@@ -450,6 +450,11 @@ img.kenny{
     .short{
         display: none;
     }
+
+    #blue{
+        right: 376px;
+    }
+        
 }
 
 @media (max-width: 1440px) {
