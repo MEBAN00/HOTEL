@@ -617,3 +617,9 @@ img.kenny{
         margin-left: 22px;
     }
 }
+
+@media (max-width: 375px) {
+    #blue{
+        top: 61px;
+    }
+}
