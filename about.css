@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#navbar{
+    background-color: #012026;
+}
+
+img.logo{
+    width: 110px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+
+.grid-container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  
+   
+  @media(min-width: 52em) {
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  }
+}
+
+.team-description {
+  grid-column: span 2;
+  
+  @media (min-width: 52em) {
+    grid-column: auto;
+    grid-row: span 2;
+    align-self: center;
+  }
+}
+
+.our-team {
+  background: #0b2027;
+  padding: 5em 0;
+  color: rgba(#f8f8f8, .6);
+}
+
+img.TM{
+  width: 200px;
+}
+
+.team-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 5rem;
+  color: #f8f8f8;
+  margin-top: 0;
+  line-height: 1;
+  
+  span {
+    display: block;
+    font-weight: 900;
+  }
+}
+
+.team-member {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  figcaption {
+    position: absolute;
+    top: 1em;
+    bottom: 1em;
+    right: 1em;
+    left: 1em;
+    background: rgba(#70a9a1, .8);
+    color: #0b2027;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 300ms;
+  }
+  
+  &:hover figcaption { 
+    opacity: 1;
+  }
+  
+  .name {
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  
+}
