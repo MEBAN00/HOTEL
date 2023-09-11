@@ -464,12 +464,6 @@ img.kenny{
     .container4{
         display: none;
     }
-
-    #blue{
-        right: 485px;
-    }
-
-
 }
 
 @media (max-width: 1024px) {
