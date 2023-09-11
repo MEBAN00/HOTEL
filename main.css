@@ -465,6 +465,10 @@ img.kenny{
         display: none;
     }
 
+    #blue{
+        right: 485px;
+    }
+
 
 }
 
@@ -599,8 +603,8 @@ img.kenny{
 
     #blue{
         right: 5px;
-        left: 10px;
-        top: 119px;
+        left: 4px;
+        top: 61px;
     }
 
     p.T{
